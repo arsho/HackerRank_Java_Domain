@@ -1,9 +1,9 @@
 //problem:Hackerrank java domain - java 2D array
 //Verdict:Accepted
-
+package Java2DArray;
 import java.util.*;
 
-public class Java_2D_Array {
+public class Solution_Tuly {
 	
 	 public static void main(String[] args) {
 	        Scanner sc=new Scanner(System.in);
