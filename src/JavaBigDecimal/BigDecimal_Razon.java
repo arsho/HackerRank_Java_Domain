@@ -9,7 +9,7 @@ import java.util.Scanner;
 public class BigDecimal_Razon {
 	public static void main(String[] argh) {
 		// Input
-		System.out.println(" ");
+		
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
 		String[] s = new String[n + 2];
