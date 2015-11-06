@@ -1,6 +1,6 @@
 //problem:Hackerrank java domain - java Iterator
 //Verdict:Accepted
-
+package java_iterator;
 import java.util.*;
 public class Solution_tuly{
 	   static Iterator func(ArrayList mylist)
