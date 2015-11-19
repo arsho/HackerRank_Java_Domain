@@ -1,4 +1,4 @@
-package JavaOutputFormatting;
+package Introduction.JavaOutputFormatting;
 import java.util.Scanner;
 
 public class Solution_Aslam {

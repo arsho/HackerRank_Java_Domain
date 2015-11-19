@@ -1,9 +1,9 @@
-package javaDataTypes;
+package Introduction.JavaDataTypes;
 import java.util.*;
 import java.io.*;
 
 
-class Solution{
+class Solution_tuly{
     public static void main(String []argh)
     {
 

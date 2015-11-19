@@ -1,4 +1,4 @@
-package java_iterator;
+package OOP.java_iterator;
 import java.util.*;
 public class Main
 {

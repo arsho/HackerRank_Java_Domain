@@ -1,5 +1,5 @@
 
-package JavaStaticInitializerBlock;
+package Introduction.JavaStaticInitializerBlock;
 
 import java.io.*;
 import java.util.*;

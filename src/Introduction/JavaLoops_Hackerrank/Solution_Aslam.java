@@ -1,5 +1,5 @@
 
-package JavaLoops_Hackerrank;
+package Introduction.JavaLoops_Hackerrank;
 
 import java.util.Scanner;
 

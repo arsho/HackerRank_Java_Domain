@@ -1,5 +1,5 @@
 
-package JavaInheritance1;
+package OOP.JavaInheritance1;
 
 class Animal {
 

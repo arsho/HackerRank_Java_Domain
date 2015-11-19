@@ -1,4 +1,4 @@
-package JavaGenerics;
+package Collections.JavaGenerics;
 
 import java.io.IOException;
 import java.lang.reflect.Method;

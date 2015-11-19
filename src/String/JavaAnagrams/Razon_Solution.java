@@ -1,9 +1,9 @@
-package string;
+package String.JavaAnagrams;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Anagrams {
+public class Razon_Solution {
 
 	/**
 	 * @param args

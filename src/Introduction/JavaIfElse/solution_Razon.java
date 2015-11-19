@@ -1,8 +1,8 @@
-package introduction;
+package Introduction.JavaIfElse;
 
 import java.util.Scanner;
 
-public class JavaIFElse {
+public class solution_Razon {
 
 	/**
 	 * @param args

@@ -1,4 +1,4 @@
-package JavaStringCompare;
+package String.JavaStringCompare;
 import java.io.*;
 import java.util.*;
 import java.text.*;

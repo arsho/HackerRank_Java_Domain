@@ -1,10 +1,10 @@
-package string;
+package String.JavaStringToken;
 
 import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class JavaStringTOkenizer {
+public class solution_Razon {
 
 	/**
 	 * @param args

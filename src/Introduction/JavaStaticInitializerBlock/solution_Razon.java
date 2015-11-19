@@ -1,8 +1,8 @@
-package introduction;
+package Introduction.JavaStaticInitializerBlock;
 
 import java.util.Scanner;
 
-public class StaticInitializeBlock {
+public class solution_Razon {
 
 	static boolean flag;
 	static int B,H;

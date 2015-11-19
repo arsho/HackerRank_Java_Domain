@@ -1,4 +1,4 @@
-package PatternSyntaxChecker;
+package String.PatternSyntaxChecker;
 
 /**
  * @author arsho

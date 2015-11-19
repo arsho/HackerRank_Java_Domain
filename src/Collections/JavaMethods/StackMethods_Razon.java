@@ -1,4 +1,4 @@
-package JavaMethods;
+package Collections.JavaMethods;
 
 import java.util.Stack;
 

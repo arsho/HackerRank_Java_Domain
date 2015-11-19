@@ -1,4 +1,4 @@
-package JavaSort;
+package Collections.JavaSort;
 
 import java.util.*;
 

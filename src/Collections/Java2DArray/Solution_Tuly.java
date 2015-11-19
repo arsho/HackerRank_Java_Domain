@@ -1,6 +1,6 @@
 //problem:Hackerrank java domain - java 2D array
 //Verdict:Accepted
-package Java2DArray;
+package Collections.Java2DArray;
 import java.util.*;
 
 public class Solution_Tuly {

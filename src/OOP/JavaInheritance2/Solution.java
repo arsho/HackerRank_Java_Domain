@@ -1,4 +1,4 @@
-package JavaInheritance2;
+package OOP.JavaInheritance2;
 
 /*Code starts*/
 class Adder extends Arithmetic{

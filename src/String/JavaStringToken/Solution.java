@@ -1,4 +1,4 @@
-package JavaStringToken;
+package String.JavaStringToken;
 
 import java.io.*;
 import java.util.*;
@@ -38,5 +38,5 @@ public class Solution {
 
 }
 /*
-He is a very very good boy, isn't he?
-*/
+ He is a very very good boy, isn't he?
+ */

@@ -1,8 +1,8 @@
-package string;
+package String.JavaReverse;
 
 import java.util.Scanner;
 
-public class StringReversePalindrom {
+public class RazonSolution {
 
 	/**
 	 * @param args

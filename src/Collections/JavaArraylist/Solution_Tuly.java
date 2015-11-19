@@ -1,7 +1,7 @@
 //By Shelia Rahman Tuly
 //Problem:Hackerrank Java Domain -Java ArrayList 
 //Verdict:Accepted
-package JavaArraylist;
+package Collections.JavaArraylist;
 import java.util.*;
 import java.io.*;
 

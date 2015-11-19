@@ -1,4 +1,4 @@
-package JavaDataTypes;
+package Introduction.JavaDataTypes;
 import java.io.*;
 import java.util.*;
 import java.text.*;

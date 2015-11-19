@@ -1,8 +1,8 @@
-package introduction;
+package Introduction.JavaDataTypes;
 
 import java.util.Scanner;
 
-public class JavaDataTypes {
+public class solution_Razon {
 
 	/**
 	 * @param args

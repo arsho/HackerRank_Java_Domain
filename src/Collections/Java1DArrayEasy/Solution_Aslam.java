@@ -1,4 +1,4 @@
-package Java1DArrayEasy;
+package Collections.Java1DArrayEasy;
 
 import java.io.*;
 import java.util.*;

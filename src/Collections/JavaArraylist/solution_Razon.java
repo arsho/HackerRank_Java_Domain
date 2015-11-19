@@ -1,11 +1,10 @@
-package dataStructure;
+package Collections.JavaArraylist;
 
 
 import java.util.Scanner;
 
-import string.JavaRegex;
 
-public class ArrayList {
+public class solution_Razon {
 
 	public static void main(String[] args) {
 	

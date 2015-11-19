@@ -1,4 +1,4 @@
-package JavaMap;
+package Collections.JavaMap;
 
 /*
 Problem: Java Map

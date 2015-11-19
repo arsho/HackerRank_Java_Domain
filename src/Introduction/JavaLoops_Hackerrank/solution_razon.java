@@ -1,8 +1,8 @@
-package introduction;
+package Introduction.JavaLoops_Hackerrank;
 
 import java.util.Scanner;
 
-public class JavaLoops {
+public class solution_razon {
 
 	/**
 	 * @param args

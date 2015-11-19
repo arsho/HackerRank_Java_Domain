@@ -1,8 +1,8 @@
-package bigNumbers;
+package BigNumbers.JavaBigInteger;
 
 import java.util.Scanner;
 
-public class BigInteger {
+public class Razon_Solution {
 
 	public static void main(String[] args) {
 

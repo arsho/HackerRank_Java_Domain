@@ -1,4 +1,4 @@
-package JavaRegex;
+package String.JavaRegex;
 import java.util.*;
 import java.util.regex.*;
 public class Solution_tuly {

@@ -1,9 +1,9 @@
-package dataStructure;
+package Collections.Java2DArray;
 
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class MaximumHourGlass {
+public class solution_Razon {
 
 	public static void main(String[] args) {
 	

@@ -1,8 +1,8 @@
-package string;
+package String.JavaStringCompare;
 
 import java.util.Scanner;
 
-public class StringCompare {
+public class solution_Razon {
 
 	/**
 	 * @param args

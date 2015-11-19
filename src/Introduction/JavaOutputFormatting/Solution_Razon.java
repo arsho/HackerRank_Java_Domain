@@ -1,8 +1,8 @@
-package introduction;
+package Introduction.JavaOutputFormatting;
 
 import java.util.Scanner;
 
-public class JavaOutputReformat {
+public class Solution_Razon {
 
 	/**
 	 * @param args

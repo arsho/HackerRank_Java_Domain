@@ -1,10 +1,10 @@
-package string;
+package String.JavaRegexTwo;
 
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class JavaRegex2 {
+public class Razon_Solution {
 
 	/**
 	 * @param args
