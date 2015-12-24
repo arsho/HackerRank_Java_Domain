@@ -1,4 +1,4 @@
-package dataStructure;
+package Collections.JavaComparator;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -7,11 +7,11 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.StringTokenizer;
 
-class Checker {
+class CheckerRazon {
 
-	Comparator<Player> desc = new Comparator<Player>() {
+	Comparator<PlayerRazon> desc = new Comparator<PlayerRazon>() {
 
-		public int compare(Player arg0, Player arg1) {
+		public int compare(PlayerRazon arg0, PlayerRazon arg1) {
 			// TODO Auto-generated method stub
 			if (arg0.score==arg1.score) {
 				return arg1.name.compareTo(arg0.name);
@@ -22,7 +22,7 @@ class Checker {
 	};
 }
 
-class Player {
+class PlayerRazon {
 	String name;
 	int score;
 }
@@ -39,19 +39,19 @@ public class Comparator_Razon {
 		int N = Integer.parseInt(br.readLine().trim());
 		String s;
 		StringTokenizer st;
-		Player Player[] = new Player[N];
-		Checker check = new Checker();
+		PlayerRazon PlayerRazon[] = new PlayerRazon[N];
+		CheckerRazon check = new CheckerRazon();
 		for (int i = 0; i < N; i++) {
 			s = br.readLine().trim();
 			st = new StringTokenizer(s);
-			Player[i] = new Player();
-			Player[i].name = st.nextToken();
-			Player[i].score = Integer.parseInt(st.nextToken());
+			PlayerRazon[i] = new PlayerRazon();
+			PlayerRazon[i].name = st.nextToken();
+			PlayerRazon[i].score = Integer.parseInt(st.nextToken());
 		}
 
-		Arrays.sort(Player, check.desc);
-		for (int i = 0; i < Player.length; i++) {
-			System.out.printf("%s %s\n", Player[i].name, Player[i].score);
+		Arrays.sort(PlayerRazon, check.desc);
+		for (int i = 0; i < PlayerRazon.length; i++) {
+			System.out.printf("%s %s\n", PlayerRazon[i].name, PlayerRazon[i].score);
 		}
 
 	}

@@ -1,4 +1,4 @@
-package dataStructure;
+package Collections.HashSet;
 
 import java.util.HashMap;
 import java.util.HashSet;

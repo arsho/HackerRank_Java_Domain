@@ -1,4 +1,4 @@
-package dataStructure;
+package Collections.Stack;
 
 import java.util.Scanner;
 import java.util.ArrayList;

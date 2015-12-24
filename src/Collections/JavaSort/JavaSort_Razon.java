@@ -1,14 +1,14 @@
-package dataStructure;
+package Collections.JavaSort;
 
 import java.util.Collections;
 import java.util.Scanner;
 
-class Student implements Comparable {
+class StudentRazon implements Comparable {
 	private int id;
 	private String fname;
 	private double cgpa;
 
-	public Student(int id, String fname, double cgpa) {
+	public StudentRazon(int id, String fname, double cgpa) {
 		super();
 		this.id = id;
 		this.fname = fname;
@@ -28,7 +28,7 @@ class Student implements Comparable {
 	}
 
 	public int compareTo(Object o) {
-		Student student = (Student) o;
+		StudentRazon student = (StudentRazon) o;
 		if (cgpa == student.cgpa) {
 			if (fname.equals(student.fname)) {
 				return id - student.id;
@@ -51,19 +51,19 @@ public class JavaSort_Razon {
 		Scanner in = new Scanner(System.in);
 		int testCases = Integer.parseInt(in.nextLine());
 
-		java.util.ArrayList<Student> studentList = new java.util.ArrayList<Student>();
+		java.util.ArrayList<StudentRazon> studentList = new java.util.ArrayList<StudentRazon>();
 		while (testCases > 0) {
 			int id = in.nextInt();
 			String fname = in.next();
 			double cgpa = in.nextDouble();
 
-			Student st = new Student(id, fname, cgpa);
+			StudentRazon st = new StudentRazon(id, fname, cgpa);
 			studentList.add(st);
 
 			testCases--;
 		}
 		Collections.sort(studentList);
-		for (Student st : studentList) {
+		for (StudentRazon st : studentList) {
 			System.out.println(st.getFname());
 		}
 	}

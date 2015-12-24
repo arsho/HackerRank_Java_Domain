@@ -1,9 +1,9 @@
-package dataStructure;
+package Collections.JavaGenerics;
 
 import java.lang.reflect.Method;
 
 
-class Printer
+class PrinterRazon
 {
 
 	public void printArray(Object[] objects) {
@@ -24,13 +24,13 @@ public class Generics_Razon {
 	 */
 	public static void main( String args[] )
     {
-        Printer myPrinter=new Printer();
+        PrinterRazon myPrinterRazon=new PrinterRazon();
         Integer[] intArray = { 1, 2, 3 };
         String[] stringArray = {"Hello","World"};
-        myPrinter.printArray( intArray  );
-        myPrinter.printArray( stringArray );
+        myPrinterRazon.printArray( intArray  );
+        myPrinterRazon.printArray( stringArray );
         int count=0;
-      for (Method method : Printer.class.getDeclaredMethods()) {
+      for (Method method : PrinterRazon.class.getDeclaredMethods()) {
             String name = method.getName();
             if(name.equals("printArray"))
               count++;
